@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>P.D Academy — Wavy FC Launch</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- 🎯 Hero Section -->
+  <header class="hero">
+    <h1>WE ARE LAUNCHING SOMETHING AWESOME<br>STAY TUNED.</h1>
+  </header>
+
+  <!-- 🎨✨ Part 1: CSS Transitions and Animations -->
+  <section class="interactive-buttons">
+    <button class="btn" onclick="animateBox()">Animate Box</button>
+    <button class="btn" onclick="flipCard()">Flip Card</button>
+    <button class="btn" onclick="showModal()">Show Modal</button>
+  </section>
+
+  <section class="animation-area">
+    <div id="box" class="box">⚽</div>
+
+    <div class="card-container">
+      <div class="card" id="playerCard">
+        <div class="card-front">Player 7</div>
+        <div class="card-back">Top Scorer</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 🎬 Modal Popup -->
+  <div class="modal" id="teamModal">
+    <div class="modal-content">
+      <span class="close-btn" onclick="hideModal()">&times;</span>
+      <h2>Wavy FC Lineup</h2>
+      <p>Meet the squad that brings the heat!</p>
+    </div>
+  </div>
+
+  <!-- 📚✨ Part 2 & 3: JavaScript Functions -->
+  <script src="script.js"></script>
+</body>
+</html>
